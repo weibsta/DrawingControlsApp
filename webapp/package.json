@@ -1,0 +1,32 @@
+{
+  "name": "drawingcontrolsapp",
+  "version": "1.0.0",
+  "description": "Web app for getting build controls data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "4.3.x",
+    "npm": "2.14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weibsta/DrawingControlsApp.git"
+  },
+  "author": "Weibin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weibsta/DrawingControlsApp/issues"
+  },
+  "homepage": "https://github.com/weibsta/DrawingControlsApp#readme",
+  "dependencies": {
+    "express" : "~4.5.1",
+    "mongoose" : "~3.8.0",
+    "body-parser" : "~1.4.2",
+    "method-override" : "~2.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1"
+  }
+}
